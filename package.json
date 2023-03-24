@@ -1,0 +1,32 @@
+{
+  "name": "countrify",
+  "version": "0.0.0",
+  "private": true,
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "author": "Maximiliano Naveillan",
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "main": "vite.config.js",
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "axios": "^1.3.4",
+    "pinia": "^2.0.32",
+    "roboto-fontface": "*",
+    "socket.io-client": "^4.6.1",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "vuetify": "npm:@vuetify/nightly@next",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.4",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.8"
+  },
+  "license": "ISC"
+}
